@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MapLink toolbar: more actions. Three dots rather than a chevron - a
+     chevron reads as "expand this control", dots read as "there is an
+     overflow menu". Flat paths (nanosvg). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 20 20">
+  <path fill="#FFFFFF" d="M10,3.6c1,0,1.8,0.8,1.8,1.8S10.9,7.2,10,7.2S8.2,6.4,8.2,5.4S9,3.6,10,3.6z"/>
+  <path fill="#FFFFFF" d="M10,8.2c1,0,1.8,0.8,1.8,1.8s-0.8,1.8-1.8,1.8S8.2,11,8.2,10S9,8.2,10,8.2z"/>
+  <path fill="#FFFFFF" d="M10,12.8c1,0,1.8,0.8,1.8,1.8s-0.8,1.8-1.8,1.8s-1.8-0.8-1.8-1.8S9,12.8,10,12.8z"/>
+</svg>

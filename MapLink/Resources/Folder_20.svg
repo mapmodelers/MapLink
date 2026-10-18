@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MapLink toolbar: Show source .blend in Explorer.
+     Two paths: folder body and the raised front flap. Also keeps it clear of
+     build_icons.is_stub(), which treats a single-path file as unauthored
+     placeholder art. Flat filled paths only (nanosvg). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 20 20">
+  <path fill="#FFFFFF" d="M3,5.4C3,4.6,3.6,4,4.4,4h3.1l1.7,1.9h6.4c0.8,0,1.4,0.6,1.4,1.4v1.1H3V5.4z"/>
+  <path fill="#FFFFFF" d="M3,9.4h14v5.2c0,0.8-0.6,1.4-1.4,1.4H4.4C3.6,16,3,15.4,3,14.6V9.4z"/>
+</svg>

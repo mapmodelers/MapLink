@@ -1,0 +1,57 @@
+# MapLink line-ending and diff policy.
+#
+# WHY THIS FILE EXISTS
+#
+# Without it, ~130 files that nobody had touched showed as fully rewritten in
+# every `git status`, because the working tree and the index disagreed about
+# CRLF. A diff you cannot read is a diff nobody reviews, and the v1.20 drop was
+# nearly submitted with its real changes buried in that noise.
+#
+# Source is stored AND checked out as LF. That is deliberate rather than
+# leaving it to each machine's core.autocrlf: VS2022, Blender and every editor
+# in this pipeline read LF fine, and pinning it means a file edited on one
+# machine, or by a tool, cannot come back looking wholly rewritten on another.
+#
+# Batch files are the exception and MUST be CRLF: cmd.exe can mis-parse labels
+# and goto in an LF-only .bat/.cmd, which fails at run time rather than at
+# checkout, where it is much harder to attribute.
+
+*               text=auto
+
+# ── Source, pinned to LF ──────────────────────────────────────────────
+*.py            text eol=lf diff=python
+*.cpp           text eol=lf diff=cpp
+*.h             text eol=lf diff=cpp
+*.cs            text eol=lf diff=csharp
+*.uplugin       text eol=lf
+*.json          text eol=lf
+*.ini           text eol=lf
+*.md            text eol=lf
+*.txt           text eol=lf
+*.svg           text eol=lf
+*.js            text eol=lf
+*.css           text eol=lf
+*.gitignore     text eol=lf
+*.gitattributes text eol=lf
+
+# ── Windows batch, pinned to CRLF ─────────────────────────────────────
+*.cmd           text eol=crlf
+*.bat           text eol=crlf
+
+# ── Binary: never normalised, never diffed as text ────────────────────
+*.uasset        binary
+*.umap          binary
+*.blend         binary
+*.blend1        binary
+*.png           binary
+*.tga           binary
+*.jpg           binary
+*.jpeg          binary
+*.ico           binary
+*.ai            binary
+*.zip           binary
+*.dll           binary
+*.exe           binary
+*.lib           binary
+*.pdb           binary
+*.pyc           binary

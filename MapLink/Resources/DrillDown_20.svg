@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MapLink toolbar: Drill Down. Inverted on purpose - a filled plate with the
+     arrow knocked out - so the drill pair reads as a mode change rather than
+     as two more line icons. Flat filled paths only (nanosvg). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 20 20">
+  <path fill="#FFFFFF" d="M4.2,3h11.6C16.5,3,17,3.5,17,4.2v11.6c0,0.7-0.5,1.2-1.2,1.2H4.2C3.5,17,3,16.5,3,15.8V4.2
+    C3,3.5,3.5,3,4.2,3z"/>
+  <path fill="#1A1B20" d="M10,14.2l-4.4-5h2.9V5.8h3v3.4h2.9L10,14.2z"/>
+</svg>

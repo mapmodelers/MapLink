@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MapLink status overlay: out of date. Drawn small (bottom-right corner
+     badge over the Manager icon), so it stays legible at 20px. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 20 20">
+  <path fill="#E8A33D" d="M10,3.2l7.4,12.8H2.6L10,3.2z"/>
+  <path fill="#1A1B20" d="M9.2,7.9h1.6v4.2H9.2V7.9z M9.2,12.9h1.6v1.6H9.2V12.9z"/>
+</svg>

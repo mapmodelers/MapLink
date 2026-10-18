@@ -1,0 +1,21 @@
+{
+  "_comment_1": "MapLink v1.8 — example spec for standalone testing of",
+  "_comment_2": "maplink_create_bp_standin.py.  Marker mode requires no",
+  "_comment_3": "FBX inputs — only the template + a writable output dir.",
+  "_comment_4": "EDIT the three absolute paths below before running.",
+  "_comment_5": "Run with: blender --background --factory-startup \\",
+  "_comment_6": "  --python maplink_create_bp_standin.py -- --spec <this file>",
+
+  "blueprint_path": "/Game/Tests/BP_StandIn_Example",
+  "blueprint_name": "BP_StandIn_Example",
+  "blueprint_class": "AActor",
+
+  "target_blend":   "C:/Temp/MapLink_v1_8_Test/BP_StandIn_Example.blend",
+  "template_blend": "C:/Projects/MyMap/Blender/BP/BP_Template/BP_Template.blend",
+
+  "mode": "marker",
+  "bounds_fallback_extent": [2.0, 2.0, 2.0],
+  "components": [],
+
+  "report_path": "C:/Temp/MapLink_v1_8_Test/report.json"
+}

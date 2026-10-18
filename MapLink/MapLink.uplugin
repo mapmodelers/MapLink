@@ -1,0 +1,33 @@
+{
+  "FileVersion": 3,
+  "Version": 41,
+  "VersionName": "1.21.0",
+  "FriendlyName": "MapLink",
+  "Description": "Blender as source of truth for Unreal hierarchical mappings.",
+  "Category": "Pipeline",
+  "CreatedBy": "MapModelers",
+  "CreatedByURL": "https://docs.mapmodelers.com",
+  "DocsURL": "https://docs.mapmodelers.com/maplink/",
+  "SupportURL": "https://github.com/mapmodelers/MapLink/issues",
+  "IsExperimentalVersion": true,
+  "EnabledByDefault": true,
+  "CanContainContent": true,
+  "Modules": [
+    {
+      "Name": "MapLinkRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "MapLinkEditor",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    }
+  ]
+}
