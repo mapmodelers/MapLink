@@ -29,7 +29,9 @@ From source: C++ project, Visual Studio 2022.
 
 ## Bugs
 
-[Issues](https://github.com/mapmodelers/MapLink/issues), with your UE and Blender versions, the steps, and the output of **MapLink → Copy Diagnostics**.
+[Issues](https://github.com/mapmodelers/MapLink/issues), with your UE and Blender versions, the steps, and the output of **MapLink → Copy Diagnostics**. Feedback and ideas: [Discussions](https://github.com/mapmodelers/MapLink/discussions).
+
+Updates: on GitHub, **Watch → Custom → Releases**.
 
 ## AI
 
