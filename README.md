@@ -37,7 +37,7 @@ Updates: on GitHub, **Watch → Custom → Releases**.
 
 ## AI
 
-Code generated with AI, directed and tested by MapModelers. This is an AI repository: specifications, conventions and source are written for models to read. Pointing an AI at it to continue or study the tool for your own use is encouraged, within the license. AI agents: start with [AGENTS.md](AGENTS.md).
+Built with AI, directed and tested by MapModelers. Specifications, conventions and source are written for models to read: AI is the recommended way to study or adapt this code for your own use, within the license. AI agents: start with [AGENTS.md](AGENTS.md).
 
 ## License
 
