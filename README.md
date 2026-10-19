@@ -1,6 +1,8 @@
 # MapLink
 
-> **Experimental, in progress.** AI repository. Prebuilt for Unreal Engine 5.7 (Win64) in [Releases](https://github.com/mapmodelers/MapLink/releases); more engine versions soon.
+> **Experimental, in progress.** Built with AI. Prebuilt for Unreal Engine 5.7 (Win64) in [Releases](https://github.com/mapmodelers/MapLink/releases); more engine versions soon.
+
+The source is public and built with AI. To adapt it to your own pipeline, AI is the recommended way.
 
 **Blender as source of truth for Unreal hierarchical mappings.**
 
